@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Host | KahootClone</title>
+        <link rel = "stylesheet" href = "../css/host.css">
+        
+    </head>
+    <body>
+        <button class="geri" id = "cancel" onclick = "endGame()">Geri</button>
+        <h2 id = "title">Katılacağınız Oyunun pini </h2>
+        <h1 id = "gamePinText"></h1>
+        <textarea class=".textarea" readonly id = 'players'></textarea>
+        <br>
+        <button id = 'start' onclick = "startGame()">Oyunu Başlat</button>
+        <br>
+        <br>
+        <script src = "../socket.io/socket.io.js"></script>
+        <script src = "../js/libs/jqueryLibrary.js"></script>
+        <script src = "../js/libs//deparam.js"></script>
+        <script src = "../js/host.js"></script>
+    </body>
+</html>
+
